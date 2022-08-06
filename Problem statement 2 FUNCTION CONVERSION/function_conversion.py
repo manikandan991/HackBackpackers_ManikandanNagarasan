@@ -31,7 +31,28 @@ def DateFromDaysSince2_ADFTODataStage(date,num_of_days):
 # then the three following functions are equivalent, and return the date 2008–08–05:
 
     return addDays(toDate(date), num_of_days)
-
-if __name__ == '__main__':
-    print('development in progress')
+    
+def Abs(expr):
+    value = eval(expr)
+    if value < 0:
+        value = value * -1:
+    return value
+    
+def random(start,end):
+    return rand(start,end)
+    
+def isnull(input):
+    if value:
+        return true
+    else:
+        return false
+        
+def floor(input):
+    return Floor(input)
+        
+def NullToValue(input):
+    return coalesce(input)
+    
+def change(input,old_value,new_value):
+    return replace(input,old_value,new_value)
     

@@ -1,7 +1,7 @@
 # Next-Path
 # SQl lineage problem 
 
-python3 sql_lineage.py <sql command to check>
+python3 sql_lineage.py sql command to check
 
 Sample outPut:
 ===========
